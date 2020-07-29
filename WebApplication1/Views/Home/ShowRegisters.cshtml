@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "ShowRegisters";
+}
+
+<h1>Ver Registros</h1>
+
+
+
+<div style="overflow-x:scroll;overflow-x:auto;">
+    <table id="table1" class="table table-bordered table-hover table-sm thead-dark">
+        <tr class="thead-dark">
+            <th class="centralize" scope="col">CPF</th>
+            <th class="centralize" scope="col">Nome</th>
+            <th class="centralize" scope="col">Placa</th>
+            <th class="centralize" scope="col">Modelo</th>
+            <th class="centralize" scope="col">Marca</th>
+        </tr>
+    </table>
+</div>
+
+
+@section Scripts{
+    <script src="~/js/ShowRegisters.js"></script>
+}
